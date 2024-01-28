@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Arial', cursive;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47e687;
+    font-family: 'Arial', cursive;
+}
+
+.box{
+    width: 800px;
+    min-height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: 'Arial', cursive;
+}
+
+#item{
+    margin: 10px 10px;
+    padding: 12px;
+    font-size: 15px;
+    width: 97%;
+    border: 0cap;
+    outline: 10;
+    font-weight: 900;
+    display: block;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0) ;
+    border-radius: 20px;
+}
+#to-do-box{
+    margin-top: 25px;
+    list-style: none;
+}
+#to-do-box li{
+    list-style: none;
+    position: relative;
+    margin: 10px 10px;
+    font: bold,'Arial';
+    color: white;
+    font-size: 20px;
+    background-color: #2868e6;
+    padding: 9px;
+    border-radius: 10px;
+    padding-right: 30px;
+    text-align: justify;
+    user-select: none;
+}
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgb(246, 1, 1);
+    background-color: #d43713 !important;
+}
+.footer {
+    position: fixed;
+    padding: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(87, 87, 235);
+    color: white;
+    text-align: center;
+  }
